@@ -1,6 +1,7 @@
-primary_colors = ["Red", "Yellow", "Blue", "Quadriple", "Inconvenience", "Appleberryfartknockers", "Do", "I", " ", ""]
-addition = 0
-primary_colors.each do |color|
-  addition += 100
-  puts "Primary Color #{color} is #{color.length+addition} letters long."
+brothers = ["Tim", "Tom", "Jim"]
+counter = 1
+brothers.each do |brother|
+  puts "This is loop number #{counter}"
+  puts "Stop hitting yourself #{brother}!"
+  counter += 1
 end
