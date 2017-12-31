@@ -1,4 +1,4 @@
-brothers = ["Tom", "Tim", "Jim"]
+brothers = ["Tom", "Tim", "Jim", "buttcheese", "turd biskey"]
 
 count = 0
 while count <= brothers.length-1
