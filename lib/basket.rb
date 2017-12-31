@@ -1,7 +1,5 @@
-brothers = ["Tom", "Tim", "Jim", "buttcheese", "turd biskey"]
-
-count = 0
-while count <= brothers.length-1
-  puts "stop hitting yourself #{brothers[count]}!"
-  count += 1
+primary_colors = ["Red", "Yellow", "Blue"]
+primary_colors.each do |color|
+  puts "Primary Color #{color} is {color.length} letters long."
 end
+
