@@ -12,7 +12,11 @@ apples_taken_out = 0
 #  end
 #end
 
-while apples_taken_out < apples_in_basket
-  puts "Taking out #{basket[apples_taken_out]}"
-  apples_taken_out += 1
+#while apples_taken_out < apples_in_basket
+#  puts "Taking out #{basket[apples_taken_out]}"
+#  apples_taken_out += 1
+#end
+
+basket.each do |apple|
+  puts "Taking out #{apple}"
 end
