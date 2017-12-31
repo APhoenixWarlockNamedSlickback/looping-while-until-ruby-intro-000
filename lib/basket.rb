@@ -11,3 +11,8 @@ loop do
     break
   end
 end
+
+while apples_taken_out < apples_in_basket
+  puts "Taking out #{basket[apples_taken_out]}"
+  apples_taken_out += 1
+end
