@@ -1,7 +1,5 @@
-brothers = ["Tom", "Tim", "Jim"]
-
-count = 0
-while count <= brothers.length-1
-  puts "stop hitting yourself #{brothers[count]}!"
-  count += 1
+input = ""
+while input != "Mommmm!!"
+  puts "Stop hitting yourself!"
+  input = gets.chomp
 end
